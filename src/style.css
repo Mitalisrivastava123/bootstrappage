@@ -1,3 +1,4 @@
+/* css */
 .one1 {
     margin-top: 0px;
     padding: 10px;
@@ -8,7 +9,7 @@
 }
 
 .jevelin1 {
-    margin-left: 194px;
+    margin-left: 105px;
 }
 
 html,
@@ -46,11 +47,12 @@ body {
     border-bottom: 2px solid #dee2e6;
 
 }
-.btn-cart
-{
-    background:#0d6efd;
-    color:#fff;
-    
+
+.btn-cart {
+    background: #0d6efd;
+    color: #fff;
+    margin-left: 67px;
+
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -107,7 +109,7 @@ body {
 
 .ms1 {
     position: relative;
-    left: 181px;
+    left: 105px;
 }
 
 .stars1 {
@@ -157,15 +159,18 @@ body {
 
 @media (max-width:992px) {
 
-    .dang1 {
-        position: relative;
-        top: 40px;
-        left: 234px;
-    }
+
 
     .jevelin {
         margin-left: 10px;
     }
+
+    .ms1 {
+        position: relative;
+        left: 181px;
+    }
+
+
 
     .btn-circle {
         box-shadow: 3px 0px 19px #e9e8e8;
@@ -175,50 +180,59 @@ body {
         display: block;
 
     }
+
     .twit {
         position: relative;
         right: 59%;
     }
-     .one99 {
-        margin-left:10%; 
-        position: relative;
-        right: 70px;
-     } 
-    .stars1 {
-        margin-left: 0px;
-    }
-}
-@media(max-width:768px)
-{
 
-    .dang1 {
-        position: relative;
-        top: 40px;
-        left: 234px;
-    }
-
-    .jevelin {
-        margin-left: 10px;
-    }
-
-    .btn-circle {
-        box-shadow: 3px 0px 19px #e9e8e8;
-        margin-left: 550px;
-        position: relative;
-        top: 110px;
-        display: block;
-
-    }
-    .twit {
-        position: relative;
-        right: 59%;
-    }
     .one99 {
         position: relative;
-        right: 70px;
+        right: 5px;
+        display: contents;
     }
+
+    .stars1 {
+        margin-left: 0px;
+        display: contents;
+    }
+
+}
+
+@media(max-width:768px) {
+
+
+    .jevelin {
+        margin-left: 10px;
+    }
+
+    .btn-circle {
+        box-shadow: 3px 0px 19px #e9e8e8;
+        margin-left: 550px;
+        position: relative;
+        top: 110px;
+        display: block;
+
+    }
+
+    .twit {
+        position: relative;
+        right: 59%;
+    }
+
+    .one99 {
+        position: relative;
+        right: 5px;
+    }
+
     .stars1 {
         margin-left: 0px;
     }
-   
+
+    @media(max-width:1024px) {
+        .jevelin1 {
+            margin-left: 26px;
+        }
+    }
+
 }

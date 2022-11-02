@@ -179,11 +179,11 @@ body {
         position: relative;
         right: 59%;
     }
-    .one99 {
-        margin-left:10%;
-        /* position: relative;
-        right: 70px; */
-    }
+     .one99 {
+        margin-left:10%; 
+        position: relative;
+        right: 70px;
+     } 
     .stars1 {
         margin-left: 0px;
     }
